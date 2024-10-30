@@ -1,8 +1,7 @@
 
 -- 1
 SELECT 
-	Nome, 
-	Ano
+	Nome, Ano
 FROM Filmes;
 
 -- 2
@@ -61,7 +60,7 @@ SELECT
 	f.nome AS Nome, g.genero AS Genero
 FROM Filmes f
 JOIN Generos g ON f.id = g.id
-WHERE g.genero = 'Mistério';
+WHERE g.genero = 'MistÃ©rio';
 
 -- 12
 SELECT 
