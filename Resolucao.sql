@@ -8,8 +8,8 @@ FROM Filmes;
 
 SELECT
 	Nome, Ano
-	FROM Filmes
-	ORDER BY Ano ASC;
+FROM Filmes
+ORDER BY Ano ASC;
 
 -- 3
 SELECT
